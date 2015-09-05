@@ -1,21 +1,19 @@
 {
   "name": "show-first-line-on-tab",
   "main": "./lib/show-first-line-on-tab",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Show the Firstline on Tabs like SublimeText.",
   "keywords": [
-      "sublime",
-      "untitled",
-      "first",
-      "line"
+    "sublime",
+    "untitled",
+    "first",
+    "line"
   ],
-  "activationCommands": {
-  },
+  "activationCommands": {},
   "repository": "https://github.com/kmgrnahito/show-first-line-on-tab",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
