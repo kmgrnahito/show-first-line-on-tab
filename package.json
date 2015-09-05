@@ -11,7 +11,7 @@
   ],
   "activationCommands": {
   },
-  "repository": "https://github.com/atom/show-first-line-on-tab",
+  "repository": "https://github.com/kmgrnahito/show-first-line-on-tab",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
