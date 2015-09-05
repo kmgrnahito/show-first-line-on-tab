@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Save file'
+      'command': 'show-first-line-on-tab:saveuntitled'
+    },
+    {
+      'label': 'Toggle'
+      'command': 'show-first-line-on-tab:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Show First Line on Tab'
+      'submenu': [
+        {
+          'label': 'Save'
+          'command': 'show-first-line-on-tab:saveuntitled'
+        },
+        {
+          'label': 'Toggle'
+          'command': 'show-first-line-on-tab:toggle'
+        }
+      ]
+    ]
+  }
+]
