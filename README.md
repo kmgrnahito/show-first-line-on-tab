@@ -5,7 +5,7 @@ Show the first line on tabs like SublimeText.
 SublimeTextのように未保存ファイルに対して  
 1行目をタブに表示し、保存するAtomパッケージ。
 
-![A screenshot of Show First Line on Tab package](./resources/show-first-line-on-tab.gif)
+![A screenshot of Show First Line on Tab package](https://github.com/kmgrnahito/show-first-line-on-tab/blob/master/resources/show-first-line-on-tab.gif)
 
 ## 機能
 + 未保存ファイルの1行目をタブに表示する
