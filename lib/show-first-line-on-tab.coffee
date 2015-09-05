@@ -47,7 +47,7 @@ module.exports = ShowFirstLineOnTab =
       projectRootDir = atom.project.getDirectories()[0]
       firstLine = "untitled" if firstLine == ""
       charPosition = projectRootDir.getPath().length - projectRootDir.getBaseName().length - 1
-      filePath = projectRootDir.getPath()[0..@charPosition] + firstLine
+      filePath = projectRootDir.getPath()[0..charPosition] + firstLine
       return filePath
 
 
