@@ -52,10 +52,9 @@ module.exports = ShowFirstLineOnTab =
 
 
   checkExistPath: ->
-    item = atom.workspace.getActivePaneItem()
-    file = item?.buffer.file
-
     try
+      item = atom.workspace.getActivePaneItem()
+      file = item?.buffer.file
       setPathFlag = file.existsSync()
     catch error
       setPathFlag = false
