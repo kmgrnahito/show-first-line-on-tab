@@ -14,7 +14,10 @@ module.exports = ShowFirstLineOnTab =
     @subscriptions.add atom.workspace.observeTextEditors (monitor) ->
       that.subscriptions.add monitor.onDidStopChanging =>
         if that.isEnable
-          atom.workspace.getActiveTextEditor().getBuffer().setPath(that.createPath()) unless that.checkExistPath()
+          try
+            atom.workspace.getActiveTextEditor().getBuffer().setPath(that.createPath()) unless that.checkExistPath()
+          catch
+            console.log atom.workspace.getActiveTextEditor().getBuffer()
 
   deactivate: ->
     @subscriptions.dispose()
