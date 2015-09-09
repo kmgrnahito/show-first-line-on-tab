@@ -1,7 +1,7 @@
 {
   "name": "show-first-line-on-tab",
   "main": "./lib/show-first-line-on-tab",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Show the Firstline on Tabs like SublimeText.",
   "keywords": [
     "sublime",
