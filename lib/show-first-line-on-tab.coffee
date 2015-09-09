@@ -17,7 +17,7 @@ module.exports = ShowFirstLineOnTab =
           try
             atom.workspace.getActiveTextEditor().getBuffer().setPath(that.createPath()) unless that.checkExistPath()
           catch
-            console.log atom.workspace.getActiveTextEditor().getBuffer()
+            
 
   deactivate: ->
     @subscriptions.dispose()
