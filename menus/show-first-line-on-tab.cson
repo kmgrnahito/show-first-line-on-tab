@@ -6,7 +6,7 @@
       'command': 'show-first-line-on-tab:saveuntitled'
     },
     {
-      'label': 'Toggle'
+      'label': 'Toggle show-first-line-on-tab'
       'command': 'show-first-line-on-tab:toggle'
     }
   ]
